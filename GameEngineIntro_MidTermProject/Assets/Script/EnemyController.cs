@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.CompareTag("Boundary"))
         {
-            isMovingRight = !isMovingRight
+            isMovingRight = !isMovingRight;
         }
     }
 }
